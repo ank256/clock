@@ -1,0 +1,52 @@
+.surf {
+
+    text-align: center;
+}
+
+.new {
+    text-align: center;
+    color: #858585;
+}
+
+.para {
+    color: #858585;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    width: 300px;
+    /* Adjust the width as per your image */
+    height: 200px;
+    /* Adjust the height as per your image */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+}
+
+.image-container:hover .image-overlay {
+    transform: translateY(0);
+}
+/* .happy {
+    background-image: url("banner.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    height: 601.04px;
+    transform: translate(0px, 119.318px);
+} */
